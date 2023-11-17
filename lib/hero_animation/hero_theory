@@ -1,0 +1,7 @@
+
+
+Used when we navigate to one screen to another then we appl hero animation between the screens
+we use Hero keyword for this
+no need for any third party package 
+tag property is required for hero animation
+Must have both screens same tag

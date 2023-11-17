@@ -1,0 +1,24 @@
+Animations
+Tween Animation
+This is in-between animation. 3 things are required in this, starting point, ending point and duration.
+For this we need Animation, AnimationController and SingleTickerProviderStateMixin then we achieve tween animation
+
+No need for any third party package
+
+
+we use animatedController.addListener() for update animation value
+and we use animationController.forward() for start animation
+
+
+
+for shown it in UI , we need to use setstate((){})
+
+
+we also apply tween animation on color, same proccess make controller and animation also SingleTickerProviderStateMixin, but in the place of Tween we need to use ColorTween. 
+But if we already use Tween in our project then we just need to make animation that is   late Animation colorAnimation; no need to make controller,just use the controller that we make for tween. 
+
+
+
+
+
+
